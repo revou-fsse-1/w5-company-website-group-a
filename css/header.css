@@ -1,0 +1,87 @@
+/* HEADER */
+header {
+  background-color: black;
+  background-image: url(../assets/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 725px;
+}
+
+/* NAV */
+nav {
+  /* max-width: 1440px; */
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+nav:hover {
+  background-color: #efeee9;
+  transition: 0.5s;
+}
+
+/* lOGO */
+a.logo {
+  font-family: "Sassy Frass", cursive;
+  font-size: 3em;
+}
+
+/* LIST */
+ul {
+  display: flex;
+  gap: 60px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: #f8f9f7;
+}
+
+.nav-icons-container {
+  display: flex;
+}
+/* ICONS */
+.nav-icon {
+  max-height: 30px;
+  color: #f8f9f7;
+  background-color: white;
+}
+
+/* HERO SECTION */
+section.hero {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  width: 680px;
+
+  margin: 0px;
+}
+button {
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+
+  background: #efeee9;
+  color: #101c2c;
+  border-style: none;
+
+  width: 205px;
+  height: 35px;
+}
+
+button:hover {
+  background: #101c2c;
+  color: #efeee9;
+  transition: 0.5s;
+  cursor: pointer;
+}
