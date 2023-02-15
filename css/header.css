@@ -1,8 +1,5 @@
 /* HEADER */
 header {
-  /* background-image: url(../assets/hero-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
   min-height: 725px;
 
   display: flex;
