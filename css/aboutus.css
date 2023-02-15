@@ -23,7 +23,7 @@
 .aboutus-maincontent {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px 100px;
+  padding: 50px 100px;
   gap: 100px;
 }
 
