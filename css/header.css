@@ -1,50 +1,56 @@
 /* HEADER */
 header {
-  background-color: black;
-  background-image: url(../assets/hero-image.jpg);
+  /* background-image: url(../assets/hero-image.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   min-height: 725px;
-}
-/* HERO */
-.hero h1 {
-  font-family: "EB Garamond";
-  font-size: 3em;
-  font-weight: 400;
-  font-style: italic;
-  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* NAV */
 nav {
-  /* max-width: 1440px; */
-  height: 80px;
+  /* STICKY NAVBAR */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0px 50px;
 
+  /* NAVBAR PROPERTIES */
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 30px;
 }
 
-nav:hover {
-  background-color: #efeee9;
-  transition: 0.5s;
+nav ul {
+  display: none;
 }
 
 /* lOGO */
 a.logo {
   font-family: "Sassy Frass", cursive;
   font-size: 3em;
+  margin: 0px 25px;
 }
 
 /* LIST */
 ul {
   display: flex;
-  gap: 60px;
+  gap: 30px;
 }
 
 li {
   list-style-type: none;
+  text-align: center;
+}
+li:hover {
+  font-weight: 700;
+  transition: 0.5s;
 }
 
 a {
@@ -54,27 +60,59 @@ a {
   color: #f8f9f7;
 }
 
-.nav-icons-container {
+.nav-icon-container {
   display: flex;
-}
-/* ICONS */
-.nav-icon {
-  max-height: 30px;
-  color: #f8f9f7;
-  background-color: white;
+  margin-right: 50px;
+  display: none;
+  max-height: 20px;
+  gap: 20px;
 }
 
-/* HERO SECTION */
+.nav-icon-account {
+}
+
+.nav-icon-hamburger {
+  max-height: 30px;
+  margin-right: 25px;
+}
+.nav-icon-container img {
+  max-height: 20px;
+}
+
+/* ICONS */
+
+/* HERO */
+.video-background {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
 section.hero {
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width: 680px;
 
-  margin: 0px;
+  gap: 20px;
+  padding: 0px 20px;
+  margin-bottom: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+.hero h1 {
+  font-family: "EB Garamond";
+  font-size: 2.3em;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  max-width: 680px;
+}
+
 button {
   font-family: "Montserrat";
   letter-spacing: 5px;
@@ -92,4 +130,24 @@ button:hover {
   color: #efeee9;
   transition: 0.5s;
   cursor: pointer;
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+  .hero h1 {
+    font-size: 3em;
+  }
+}
+
+/* MOBILE */
+@media only screen and (min-width: 1440px) {
+  nav ul {
+    display: flex;
+  }
+  .nav-icon-hamburger {
+    display: none;
+  }
+  .nav-icon-container {
+    display: flex;
+  }
 }
