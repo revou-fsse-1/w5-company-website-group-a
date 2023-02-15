@@ -1,8 +1,5 @@
 /* HEADER */
 header {
-  /* background-image: url(../assets/hero-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
   min-height: 725px;
 
   display: flex;
@@ -17,8 +14,7 @@ nav {
   /* STICKY NAVBAR */
   position: fixed;
   top: 0;
-  width: 100%;
-  padding: 0px 50px;
+  width: 100vw;
 
   /* NAVBAR PROPERTIES */
   min-height: 80px;
@@ -68,9 +64,6 @@ a {
   gap: 20px;
 }
 
-.nav-icon-account {
-}
-
 .nav-icon-hamburger {
   max-height: 30px;
   margin-right: 25px;
@@ -78,8 +71,6 @@ a {
 .nav-icon-container img {
   max-height: 20px;
 }
-
-/* ICONS */
 
 /* HERO */
 .video-background {
