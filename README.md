@@ -10,8 +10,7 @@ The website itself is inspired by [Mahzedahr Bakery](https://mahzedahrbakery.com
 
 ## Links/URLs
 
-- [revou-company-website.netlify.app](https://revou-company-website.netlify.app)
-- [revou-company.mhaidarhanif.com](https://revou-company.mhaidarhanif.com)
+- [kukis.netlify.app](https://kukis.netlify.app/)
 
 ## Design
 
