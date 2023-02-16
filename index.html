@@ -14,7 +14,7 @@
       <video autoplay loop muted plays-inline class="video-background">
         <source src="./assets/header/background-video.mp4" type="video/mp4" />
       </video>
-      <nav>
+      <nav id="nav">
         <a href="#" class="logo">kukis</a>
         <ul>
           <li><a href="#about">about</a></li>
@@ -146,13 +146,22 @@
       <form>
         <label for="email">sign up to our newsletter</label><br />
         <input
-          type="text"
+          type="email"
           id="email"
           name="email"
           placeholder="email address"
           class="email"
           required
         />
+        <button
+          id="email-submit"
+          class="email-submit"
+          type="submit"
+          form="form1"
+          value="Submit"
+        >
+          &rarr;
+        </button>
       </form>
 
       <div class="footer-social-icons">

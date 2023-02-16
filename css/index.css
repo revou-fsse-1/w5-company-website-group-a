@@ -20,7 +20,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: #0b1c2c;
+  /* background-color: none; */
 
   /* NAVBAR PROPERTIES */
   min-height: 80px;
@@ -118,7 +118,7 @@ button {
   letter-spacing: 5px;
   text-transform: uppercase;
 
-  background: #efeee9;
+  background-color: #efeee9;
   color: #101c2c;
   border-style: none;
 
@@ -389,6 +389,7 @@ footer {
 /* FORM */
 form {
   line-height: 30px;
+  position: relative;
 }
 label {
   color: #efeee9;
@@ -402,16 +403,31 @@ input.email {
   font-family: "Montserrat";
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: red;
 
   /* BOX */
   background: none;
   width: 350px;
   border: none;
   border-bottom: 1px solid #58636d;
+  color: white;
 }
 ::placeholder {
   color: #293947;
+}
+
+/* EMAIL BUTTON */
+.email-submit {
+  background: none;
+  color: #efeee9;
+  width: 50px;
+  height: 19px;
+  border-bottom: 1px solid #58636d;
+  height: 19px;
+  padding: 0;
+  margin-left: -20px;
+}
+.email-submit:hover {
+  background-color: none;
 }
 
 /* SOCIAL ICONS */

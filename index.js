@@ -1,5 +1,6 @@
 /* BACK TO TOP BUTTON */
 let mybutton = document.getElementById("myBtn");
+const navbar = document.getElementById("nav");
 
 window.onscroll = function () {
   scrollFunction();
@@ -11,15 +12,19 @@ function scrollFunction() {
     document.documentElement.scrollTop > 200
   ) {
     mybutton.style.display = "flex";
+    navbar.style.backgroundColor = '#0b1c2c'
+
   } else {
     mybutton.style.display = "none";
+    console.log("Hello")
+    navbar.style.backgroundColor = 'rgba(0,0,0,0)'
   }
 }
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+
+
+
+// NAVBAR
 
 /* SMOOTH SCROLLING */
 
@@ -54,3 +59,9 @@ allLinks.forEach(function (link) {
     }
   });
 });
+
+// EMAIL SUBMIT
+const submit = document.getElementById("email-submit")
+submit.addEventListener("click", () => {
+  alert("Thank You For Subscribing!")
+}) 
