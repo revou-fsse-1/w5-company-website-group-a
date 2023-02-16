@@ -16,6 +16,7 @@ label {
   font-family: "EB Garamond";
   font-size: 1rem;
   text-transform: uppercase;
+  font-style: italic;
 }
 input.email {
   /* TEXT */
