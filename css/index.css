@@ -220,7 +220,7 @@ button:hover {
 .aboutus-gridimages {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 285.1px min-content min-content;
+  grid-template-rows: 285.1px 285.1px;
 }
 
 /* ABOUT US MEDIA QUERY */
@@ -253,16 +253,19 @@ button:hover {
 
   .aboutus-gridimages {
     display: grid;
-    grid-template-rows: 384.15px min-content min-content;
+    grid-template-rows: 384.15px 384.15px;
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .aboutus-gridimages {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-rows: 212.89px 212.89px;
   }
 }
+
+/* @media only screen and (min-width: 1440px) {
+} */
 
 /* SHOP CONTENT */
 
@@ -312,7 +315,7 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 50px;
-  padding: 50px 130px;
+  padding: 50px 120px;
   align-items: center;
 }
 
@@ -357,9 +360,13 @@ button:hover {
   .shop-header h2 {
     padding: 0;
   }
+
+  .shop-maincontent {
+    padding: 40px;
+  }
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
   .shop-maincontent {
     padding: 20px;
   }
@@ -558,4 +565,22 @@ address {
     order: 5;
     align-self: center;
   }
+}
+
+/* BACK TO TOP BUTTON */
+
+.top {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* --offset: 10px; */
+
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  padding: 20px;
+  place-self: end;
+  /* margin-top: calc(10vh + var(--offset)); */
+  color: #0a2647;
 }
