@@ -17,6 +17,7 @@ label {
   font-size: 1rem;
   font-style: italic;
   text-transform: uppercase;
+  font-style: italic;
 }
 input.email {
   /* TEXT */
