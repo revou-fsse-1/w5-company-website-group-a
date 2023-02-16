@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Kristi&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sassy+Frass&display=swap");
 body {
   color: #f8f9f7;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -20,6 +24,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
+  background-color: #0b1c2c;
 
   /* NAVBAR PROPERTIES */
   min-height: 80px;
@@ -34,9 +39,10 @@ nav ul {
 
 /* lOGO */
 a.logo {
-  font-family: "Sassy Frass", cursive;
+  font-family: "Kristi", cursive;
   font-size: 3em;
   margin: 0px 25px;
+  text-transform: capitalize;
 }
 
 /* LIST */
@@ -51,7 +57,6 @@ li {
 }
 li:hover {
   font-weight: 700;
-  transition: 0.5s;
 }
 
 a {
@@ -59,6 +64,7 @@ a {
   letter-spacing: 5px;
   text-decoration: none;
   color: #f8f9f7;
+  text-transform: uppercase;
 }
 
 .nav-icon-container {
@@ -107,11 +113,13 @@ section.hero {
   font-style: italic;
   text-align: center;
   max-width: 680px;
+  text-transform: uppercase;
 }
 
 button {
   font-family: "Montserrat";
   letter-spacing: 5px;
+  text-transform: uppercase;
 
   background: #efeee9;
   color: #101c2c;
@@ -390,6 +398,7 @@ label {
   font-family: "EB Garamond";
   font-size: 1rem;
   text-transform: uppercase;
+  font-style: italic;
 }
 input.email {
   /* TEXT */
