@@ -228,7 +228,7 @@ button:hover {
 .aboutus-gridimages {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 280px min-content min-content;
+  grid-template-rows: 285.1px min-content min-content;
 }
 
 /* ABOUT US MEDIA QUERY */
@@ -265,10 +265,10 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
   .aboutus-gridimages {
     display: grid;
-    grid-template-rows: 212.89px min-content min-content;
+    grid-template-columns: auto;
   }
 }
 
