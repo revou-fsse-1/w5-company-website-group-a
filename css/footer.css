@@ -166,9 +166,10 @@ address {
   /* ORDER */
   footer {
     display: grid;
-    grid-template-columns: 1.5fr 2fr 1fr;
+    grid-template-columns: 1.5fr 2fr 0.5fr;
     column-gap: 10px;
     row-gap: 30px;
+    padding: 50px;
   }
   form {
     order: 0;
