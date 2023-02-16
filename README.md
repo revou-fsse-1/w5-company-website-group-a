@@ -4,8 +4,8 @@ The website itself is inspired by [Mahzedahr Bakery](https://mahzedahrbakery.com
 
 ## Pages
 
-- Home
 - About
+- Shop
 - Location
 
 ## Links/URLs
