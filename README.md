@@ -10,7 +10,8 @@ The website itself is inspired by [Mahzedahr Bakery](https://mahzedahrbakery.com
 
 ## Links/URLs
 
-- [kukis.netlify.app](https://kukis.netlify.app/)
+- Website: [kukis.shop](http://kukis.shop/)
+- Netlify: [kukis.netlify.app](https://kukis.netlify.app/)
 
 ## Design
 
